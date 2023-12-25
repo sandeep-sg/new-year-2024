@@ -1,6 +1,9 @@
 let wish = document.querySelector("h1");
-let name = prompt("Enter your name :").toUpperCase();
-while (name == "") {
+let name = prompt("Enter your name :");
+if (name == true) {
+  console.log("true");
+}
+while (name == null || name == "") {
   name = prompt("Enter your name :");
 }
 
