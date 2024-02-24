@@ -9,7 +9,7 @@ while (name == null || name == "") {
 
 setInterval(() => {
   let currentTime = new Date();
-  let newyear2024 = "1 jan 2024 12:00:00 AM";
+  let newyear2024 = "1 jan 2025 12:00:00 AM";
   let endTime = new Date(newyear2024);
   let differenceTime = (endTime - currentTime) / 1000;
   let days = Math.floor(differenceTime / 60 / 60 / 24);
